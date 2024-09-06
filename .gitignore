@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# YOLOv8 model file
+yolov8m.pt
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE-specific files (optional, but recommended)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
