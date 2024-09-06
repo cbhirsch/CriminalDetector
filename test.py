@@ -4,7 +4,7 @@ import cv2
 # Load the pretrained YOLOv8m model
 model = YOLO('yolov8m.pt')  # Use the appropriate path to your YOLOv8m model
 
-# Function to stream video and apply YOLOv8m detections
+# Function to stream video and apply YOLOv8m detection
 def stream_and_detect(video_source=0):
     """
     Streams video from the specified source and applies YOLOv8m object detection on each frame.
