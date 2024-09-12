@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "criminaldetector"
+version = "0.1.0"
+description = "criminal detector app"
+authors = ["Bryce <cbirsch859@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = "^8.2.92"
+opencv-python = "^4.10.0.84"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+pillow = "^10.4.0"
+ipython = "^8.27.0"
+ipykernel = "^6.29.5"
+pytube = "^15.0.0"
+pytubefix = "^6.15.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
